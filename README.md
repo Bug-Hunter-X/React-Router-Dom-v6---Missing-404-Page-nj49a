@@ -1,0 +1,1 @@
+This repository demonstrates a common issue encountered when using React Router Dom v6: the absence of a 404 page for non-existent routes. The initial `App.js` showcases the problem, while `AppSolution.js` provides a corrected implementation.  The solution involves adding a `Route` with a `path='*'` to act as a catch-all for any unmatched routes.
